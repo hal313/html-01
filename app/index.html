@@ -39,7 +39,7 @@
         <script type="text/javascript">
             window.SampleApp = window.SampleApp || {};
             window.SampleApp.config = window.SampleApp.config || {};
-            window.SampleApp.config.baseurl = window.SampleApp.config.baseurl || '//localhost:10080/api';
+            window.SampleApp.config.baseurl = window.SampleApp.config.baseurl || `${document.location.origin}/api`;
         </script>
 
         <script src="index.js"></script>
